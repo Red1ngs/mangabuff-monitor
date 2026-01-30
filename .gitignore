@@ -1,0 +1,36 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# History
+manga_history.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# System
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Output
+output.log
+debug.log
+nohup.out
