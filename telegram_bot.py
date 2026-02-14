@@ -56,9 +56,10 @@ class TelegramNotifier:
     def format_manga_notification(self, manga_info):
         """Форматирование уведомления о манге"""
         
+        # Используем <code> для копируемого названия
         caption = f"""🔔 <b>Смена тайтла в альянсе!</b>
 
-📚 <b>{manga_info['title']}</b>
+📚 <code>{manga_info['title']}</code>
 
 🔗 <a href="https://mangabuff.ru/alliances/10/boost">Перейти к вкладке альянса</a>
 
