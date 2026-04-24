@@ -5,7 +5,7 @@ from datetime import datetime
 # Темы для рассылки.
 # None = General (message_thread_id не передаётся)
 # int  = конкретная тема по ID
-TOPIC_IDS = [None, 2280]
+TOPIC_IDS = [None, 3]
 
 
 class TelegramNotifier:
